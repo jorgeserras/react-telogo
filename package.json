@@ -1,14 +1,12 @@
 {
   "name": "react-telogo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Telogo",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^15.5.4"
   },
   "dependencies": {
-    "react": "^15.5.4",
-    "webpack": "^2.6.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,6 +30,8 @@
     "url": "https://github.com/jorgeserras/react-telogo/issues"
   },
   "devDependencies": {
+	"react": "^15.5.4",
+    "webpack": "^2.6.1",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
